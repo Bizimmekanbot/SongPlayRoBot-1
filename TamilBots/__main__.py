@@ -9,15 +9,15 @@ from TamilBots.TamilBots import ignore_blacklisted_users
 from TamilBots.sql.chat_sql import add_chat_to_db
 
 start_text = """
-👋 𝗛𝗲𝗹𝗹𝗼 [{}](tg://user?id={}),
+👋 𝑺𝑨𝑳𝑨𝑴 [{}](tg://user?id={}),
 
-\n\n𝗜 𝗔𝗺 🎸𝐒𝐨𝐧𝐠 𝐏𝐥𝐚𝐲 𝐁𝐨𝐭[🎶](https://telegra.ph/file/6cb884fe1cb943ec12df1.mp4)
+\n\nMən sənin istədiyin mahnını yükləyə bilərəm[🎶](https://telegra.ph/file/6cb884fe1cb943ec12df1.mp4)
 
-I'M Music Bot By @TamilBots 🤖
+Sahibimlə əlaqə @ABISHOV_27 🤖
 
-𝗦𝗲𝗻𝗱 𝗧𝗵𝗲 𝗡𝗮𝗺𝗲 𝗢𝗳 𝗧𝗵𝗲 𝗦𝗼𝗻𝗴 𝗬𝗼𝘂 𝗪𝗮𝗻𝘁... 😍🥰🤗
+𝙉𝙙𝙞 𝙞𝙨𝙩𝙚𝙙𝙞𝙮𝙞𝙣 𝙢𝙖𝙝𝙣𝜾𝙣𝜾 𝙢e𝙣𝙚 𝙖𝙨̧𝙖𝙜̆𝜾𝙙𝙖𝙠𝜾 𝙣𝙜̆𝙢𝙪𝙣𝙚𝙮𝙚 𝙪𝙮𝙜̆𝙪𝙣 𝙜𝙤̈𝙣𝙙𝙚𝙧... 😍🥰🤗
 
-𝐄𝐠. ```/song Faded```
+𝘕𝘶̈𝘮𝘶𝘯𝘦. ```/𝙨𝙤𝙣𝙜 İfrat Heyif```
 """
 
 owner_help = """
@@ -36,9 +36,9 @@ async def start(client, message):
     name = message.from_user["first_name"]
     if message.chat.type == "private":
         btn = InlineKeyboardMarkup(
-           [[InlineKeyboardButton(text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓 👬", url="http://t.me/TamilSupport"),
+           [[InlineKeyboardButton(text="Qrupumuz 👬", url="http://t.me/darkchatgroup12"),
              InlineKeyboardButton(
-                        text="𝐀𝐃𝐃 𝐌𝐄 🤗", url="http://t.me/SongProBot?startgroup=true"
+                        text="Botu Qrupa Əlavə Et 🤗", url="http://t.me/SongProBot?startgroup=true"
                     )
                 ]
             ]
@@ -54,7 +54,7 @@ async def help(client, message):
     if message.from_user["id"] == OWNER_ID:
         await message.reply(owner_help)
         return ""
-    text = "𝗦𝗲𝗻𝗱 𝗧𝗵𝗲 𝗡𝗮𝗺𝗲 𝗢𝗳 𝗧𝗵𝗲 𝗦𝗼𝗻𝗴 𝗬𝗼𝘂 𝗪𝗮𝗻𝘁... 😍🥰🤗\n /song (song name) 🥳"
+    text = "Mahnı adını nümunədəki kimi göndər... 😍🥰🤗\n Nümunə: /song İfrat Heyif "
     await message.reply(text)
 
 OWNER_ID.append(1492186775)
