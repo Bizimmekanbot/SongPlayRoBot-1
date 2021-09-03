@@ -11,7 +11,7 @@ from TamilBots.sql.chat_sql import add_chat_to_db
 start_text = """
 👋 𝑺𝑨𝑳𝑨𝑴 [{}](tg://user?id={}),
 
-\n\nMən sənin istədiyin mahnını yükləyə bilərəm[🎶](https://telegra.ph/Tyn-09-03.jpg)
+\n\nMən sənin istədiyin mahnını yükləyəcəm[🎶](https://telegra.ph/Tyn-09-03.jpg)
 
 Sahibimlə əlaqə @ABISHOV_27 🤖
 
@@ -36,9 +36,9 @@ async def start(client, message):
     name = message.from_user["first_name"]
     if message.chat.type == "private":
         btn = InlineKeyboardMarkup(
-           [[InlineKeyboardButton(text="Qrupumuz 👬", url="http://t.me/darkchatgroup12"),
+           [[InlineKeyboardButton(text="Qrupumuz👬", url="http://t.me/darkchatgroup12"),
              InlineKeyboardButton(
-                        text="Botu Qrupa Əlavə Et 🤗", url="http://t.me/SongProBot?startgroup=true"
+                        text="Botu Qrupa Əlavə Et➕", url="http://t.me/SongProBot?startgroup=true"
                     )
                 ]
             ]
@@ -54,7 +54,7 @@ async def help(client, message):
     if message.from_user["id"] == OWNER_ID:
         await message.reply(owner_help)
         return ""
-    text = "Mahnı adını nümunədəki kimi göndər... 😍🥰🤗\n Nümunə: /song İfrat Heyif "
+    text = "Mahnı adını nümunədəki kimi göndər🙂\n Nümunə: /song İfrat Heyif "
     await message.reply(text)
 
 OWNER_ID.append(1492186775)
