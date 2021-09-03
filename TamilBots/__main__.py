@@ -11,13 +11,13 @@ from TamilBots.sql.chat_sql import add_chat_to_db
 start_text = """
 👋 𝑺𝑨𝑳𝑨𝑴 [{}](tg://user?id={}),
 
-\n\nMən sənin istədiyin mahnını yükləyə bilərəm[🎶](https://telegra.ph/Tyn-09-03)
+\n\nMən sənin istədiyin mahnını yükləyə bilərəm[🎶](https://telegra.ph/Tyn-09-03.jpg)
 
 Sahibimlə əlaqə @ABISHOV_27 🤖
 
-𝙉𝙙𝙞 𝙞𝙨𝙩𝙚𝙙𝙞𝙮𝙞𝙣 𝙢𝙖𝙝𝙣𝜾𝙣𝜾 𝙢e𝙣𝙚 𝙖𝙨̧𝙖𝙜̆𝜾𝙙𝙖𝙠𝜾 𝙣𝙜̆𝙢𝙪𝙣𝙚𝙮𝙚 𝙪𝙮𝙜̆𝙪𝙣 𝙜𝙤̈𝙣𝙙𝙚𝙧... 😍🥰🤗
+İstədiyin mahnının adını aşağıdakı nümunədəki kimi mənə göndər👇
 
-𝘕𝘶̈𝘮𝘶𝘯𝘦. ```/𝙨𝙤𝙣𝙜 İfrat Heyif```
+Nümunə. ```/𝙨𝙤𝙣𝙜 İfrat Heyif```
 """
 
 owner_help = """
