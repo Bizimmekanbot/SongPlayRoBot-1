@@ -11,7 +11,7 @@ from TamilBots.sql.chat_sql import add_chat_to_db
 start_text = """
 👋 𝑺𝑨𝑳𝑨𝑴 [{}](tg://user?id={}),
 
-\n\nMən sənin istədiyin mahnını yükləyə bilərəm[🎶](https://telegra.ph/file/6cb884fe1cb943ec12df1.mp4)
+\n\nMən sənin istədiyin mahnını yükləyə bilərəm[🎶](https://telegra.ph/Tyn-09-03)
 
 Sahibimlə əlaqə @ABISHOV_27 🤖
 
