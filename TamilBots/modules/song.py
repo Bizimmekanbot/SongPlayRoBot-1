@@ -30,7 +30,7 @@ async def song(client, message):
     if args.startswith(" "):
         await message.reply("Mahnı adını yaz. KÖMƏK ÜÇÜN /help")
         return ""
-    status = await message.reply("🚀 🔎 🔎 𝑴𝒂𝒉𝒏𝜾 𝒂𝒙𝒕𝒂𝒓𝜾𝒍𝜾𝒓... 🎶 𝑩𝒊𝒓𝒂𝒛 𝑮𝒐̈𝒛𝒍𝒆𝒚𝒊𝒏 ⏳️  [🚀](https://telegra.ph/Tyn-09-03)")
+    status = await message.reply("🚀 🔎 🔎 𝑴𝒂𝒉𝒏𝜾 𝒂𝒙𝒕𝒂𝒓𝜾𝒍𝜾𝒓... 🎶 𝑩𝒊𝒓𝒂𝒛 𝑮𝒐̈𝒛𝒍𝒆𝒚𝒊𝒏 ⏳️  [🚀](https://telegra.ph/Tyn-09-03.jpg)")
     video_link = yt_search(args)
     if not video_link:
         await status.edit("✖️ Tapılmadı. Bağışlayın.\n\nYenidən yoxlayın.\n\nNümunə.`/song Ifrat Heyif`")
