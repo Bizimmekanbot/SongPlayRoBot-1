@@ -13,7 +13,7 @@ start_text = """
 
 \n\nMən sənin istədiyin mahnını yükləyəcəm[🎶](https://telegra.ph/Tyn-09-03.jpg)
 
-Sahibimlə əlaqə @ABISHOV_27 🤖
+Məni qrupuna əlavə etməyi unutma😍🎵
 
 İstədiyin mahnının adını aşağıdakı nümunədəki kimi mənə göndər👇
 
@@ -36,7 +36,7 @@ async def start(client, message):
     name = message.from_user["first_name"]
     if message.chat.type == "private":
         btn = InlineKeyboardMarkup(
-           [[InlineKeyboardButton(text="Qrupumuz👬", url="http://t.me/darkchatgroup12"),
+           [[InlineKeyboardButton(text="Qrupumuz👬", url=""),
              InlineKeyboardButton(
                         text="Botu Qrupa Əlavə Et➕", url="http://t.me/SongProBot?startgroup=true"
                     )
